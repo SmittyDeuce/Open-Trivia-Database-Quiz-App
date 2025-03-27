@@ -3,6 +3,7 @@ body {
   background-color: #555555;
   margin: 0; /* Remove default margin */
   font-family: Arial, sans-serif;
+  color: white;
 }
 
 /* Fixed header styling */
@@ -13,7 +14,7 @@ body {
   width: 100%;
   background-color: #444;
   color: white;
-  padding: 2px ;
+  padding: 2px;
   text-align: center;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
   z-index: 1000; /* Keeps header above everything */
@@ -35,14 +36,21 @@ body {
 
 /* Instructions section */
 
-
 h2 {
-    color: #ffcc00; /* A bright yellow color for contrast */
-    font-size: 2rem;
-    margin-top: 20px;
-    margin-bottom: none; /* Add margin-bottom to space it from the list */
-    padding: 10px;
-  }
+  color: #ffcc00; /* A bright yellow color for contrast */
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: none; /* Add margin-bottom to space it from the list */
+  padding: 10px;
+}
+
+h3 {
+  color: #ffcc00; /* A bright yellow color for contrast */
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: none; /* Add margin-bottom to space it from the list */
+  padding: 10px;
+}
 
 /* Instructions list */
 ul {
@@ -52,7 +60,7 @@ ul {
 
 ul li {
   font-size: 1.2rem;
-  color: #ddd;
+  color: black;
   padding: 10px;
   background: rgba(255, 255, 255, 0.1);
   margin: 5px auto;
